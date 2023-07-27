@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF to Markdown Converter</title>
+</head>
+<body>
+    <h1>PDF to Markdown Converter</h1>
+    <form action="/convert" method="post" enctype="multipart/form-data">
+        <label for="drive-link">Google Drive Link:</label>
+        <input type="text" name="drive-link" id="drive-link"><br><br>
+        
+        <label for="pdf-file">Upload PDF File:</label>
+        <input type="file" name="pdf-file" id="pdf-file"><br><br>
+        
+        <input type="submit" value="Convert">
+    </form>
+</body>
+</html>
